@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148.2050018310547" height="219.7050018310547" viewBox="0 0 148.205 219.705">
+  <defs>
+    <path id="path-1" fill-rule="evenodd" d="M2.35231505 49.35231505l143.5-47v31.5l-95.5 32 95.5 31.5v32l-143.5-47.5v-32.5z"/>
+    <path id="path-2" fill-rule="evenodd" d="M2.35231505 137.35231505l143.5-47v31.5l-95.5 32 95.5 31.5v32l-143.5-47.5v-32.5z"/>
+  </defs>
+  <g>
+    <g>
+      <use fill="rgb(255,255,255)" xlink:href="#path-1"/>
+      <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1" xlink:href="#path-1"/>
+    </g>
+    <g transform="rotate(-179.999936 74.10231505 153.85231505)">
+      <use fill="rgb(255,255,255)" xlink:href="#path-2"/>
+      <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1" xlink:href="#path-2"/>
+    </g>
+  </g>
+</svg>

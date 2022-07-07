@@ -49,7 +49,7 @@
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
         <!-- <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li> -->
         <!-- <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li> -->
-        <!-- <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li> -->
+        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         <li class="nav-item"><a class="nav-link" href="https://calendly.com/smetankajakub/30-minutes-call" target="_blank" style="color: #009e66;">Hire me <i class="icon ion-md-arrow-dropright"></i></a></li>
       </ul>
@@ -179,6 +179,13 @@
                     <p class="service-description">Build and deployment of application to Netlify, Vercel, Firebase hosting ...</p>
                   </div>
                 </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-md-build"></i>
+                    <h6 class="service-title">Maintenance</h6>
+                    <p class="service-description">Keep your application updated, with latest versions of packages</p>
+                  </div>
+                </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
                   <div class="single-service"><i class="icon service-icon ion-md-cloud-outline"></i>
@@ -200,23 +207,13 @@
                     <p class="service-description">Payments portal (Stripe), marketing tools (Sendgrid)... Everything needed for your project.</p>
                   </div>
                 </div>
-                <!-- Single service-->
-                <div class="col-12 col-md-6 col-lg-4">
-                  <div class="single-service"><i class="icon service-icon ion-md-build"></i>
-                    <h6 class="service-title">Maintenance</h6>
-                    <p class="service-description">Keep your application updated, with latest versions of packages</p>
-                  </div>
-                </div>
-                <!-- Single service-->
-                
               </div>
             </div>
             <div class="info-section single-section">
-              <div class="row align-items-center">
-                <div>
+              <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-12 col-lg-12 text-center">
                   <div class="h-100" style="padding: 30px;">
-                    <!-- <p>Looking for remote front-end developer who will help you implement your idea?</p> -->
-                    <button class="btn button-main button-scheme"><a style="color: white;" href="https://calendly.com/smetankajakub/30-minutes-call" target="_blank">Present idea <i class="icon ion-md-arrow-dropright"></i></a></button>
+                    <button class="btn button-main button-scheme"><a style="color: white;" href="https://calendly.com/smetankajakub/30-minutes-call" target="_blank">Present an idea</a></button>
                   </div>
                 </div>
               </div>
@@ -229,7 +226,9 @@
     </div>
   </div>
   <!-- Resume lightbox-->
-  <div class="lightbox-wrapper" id="resume" data-simplebar>
+  <!-- Portfolio lightbox-->
+  <!-- Blog lightbox -->
+  <div class="lightbox-wrapper" id="blog" data-simplebar>
     <div class="container">
       <div class="lightbox-close">
         <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
@@ -240,63 +239,75 @@
             <div class="row">
               <div class="col-12">
                 <div class="section-heading page-heading">
-                  <p class="section-description">Check out my Resume</p>
-                  <h2 class="section-title">Resume</h2>
+                  <p class="section-description">Check out my latest blog posts</p>
+                  <h2 class="section-title">My Blog</h2>
                   <div class="animated-bar"></div>
                 </div>
               </div>
             </div>
-            <!-- Resume section-->
-            <div class="resume-section single-section">
-              <div class="row">
-                <!-- Education part-->
-                <div class="col-12 col-md-6">
-                  <div class="col-block education">
-                    <h3 class="col-title">Education</h3>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Master Degree, Apllied Informatics</h5><span class="item-details">Slovak University of Technology / 2017 - 2020</span>
-                      <p class="item-description">Most of the time I was working on a diploma thesis called "Data processing for monitoring energy metabolism". The main purpose was to design and develop a prototype of a web application for the department of the Slovak Academy of Science. The whole process includes parts like describing requirements, designing architecture and templates, implementing the prototype and deploying it to their server. For Full-stack development, I used PHP, MySQL on the Back-end side, and HTML, CSS, Bootstrap, Javascript, Jquery, AJAX on the Front-end.</p>
+            <!-- Blog section-->
+            <div class="blog-section single-section">
+              <div class="row justify-content-center">
+                <!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="https://dev.to/smetankajakub/how-to-integrate-husky-eslint-prettier-to-project-in-less-than-15-minutes-5gh"><img class="card-img-top" src="img/blog-1.jpg" alt="Blog post"><span class="content-date">04 Dec, 21</span></a>
+                    <div class="card-body post-content"><a href="https://dev.to/smetankajakub/how-to-integrate-husky-eslint-prettier-to-project-in-less-than-15-minutes-5gh">
+                        <h5 class="card-title content-title">How to integrate Husky, ESLint, Prettier to project in less than 15 minutes (step-by-step guide)</h5>
+                      </a>
+                      <p class="card-text content-description">Usage of code formatter increases the readability of code and helps to keep the same style in the whole project. In this article, we will go through one of the most popular linter ESLint, which is intended for Javascript and Typescript.</p>
                     </div>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Master Degree, Computer science</h5><span class="item-details">University of Zagreb / 2017 - 2018</span>
-                      <p class="item-description">One semester as part of Master degree participation in Erasmus+ program. Passed courses like Machine learning (python), Optimization methods (understanding heuristics methods in programming), Project management</p>
-                    </div>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Bachelor degree, Apllied Informatics</h5><span class="item-details">Slovak University of Technology / 2014-2017</span>
-                      <p class="item-description">I came through courses to understand the basics of programming in C to be able to implement advanced algorithms and understand concepts of OPP in Java. Also, I met with client-side and server-side web technologies.
-                        The purpose of the Bachelor thesis called "Automated creation of test questions" was to develop an efficient automated tool for generating test questions (about simple MATLAB algorithms) and find solution to import them to platforms (Moodle and AIS) which are used for testing students on some courses. I used technologies like PHP, HTML/CSS, MATLAB.</p>
+                    <div class="col-lg-12 row justify-content-right" >
+                      <p class="card-text content-footer" style="opacity: 0.7">Read more on <a href="https://dev.to/smetankajakub/how-to-integrate-husky-eslint-prettier-to-project-in-less-than-15-minutes-5gh">dev.to</a></p>
+                      <!-- <p><a href="">Read on Hashnode</a></p> -->
                     </div>
                   </div>
                 </div>
-                <!-- Experience part-->
-                <div class="col-12 col-md-6">
-                  <div class="col-block experience">
-                    <h3 class="col-title">Experience</h3>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Front-end developer</h5><span class="item-details">Freelancer / 2021 - Present</span>
-                      <p class="item-description">Helping to build and deliver projects. Working with Angular, Firebase. Integration of payments portal (Stripe)</p>
+                <!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="https://dev.to/smetankajakub/vscode-extensions-not-only-for-frontend-developers-30aj"><img class="card-img-top" src="img/blog-3.jpg" alt="Blog post"><span class="content-date">04 Nov, 21</span></a>
+                    <div class="card-body post-content"><a href="https://dev.to/smetankajakub/vscode-extensions-not-only-for-frontend-developers-30aj">
+                        <h5 class="card-title content-title">VS Code extensions NOT only for Frontend developers</h5>
+                      </a>
+                      <p class="card-text content-description">TL;DR<br>
+                        Prettier - Code formatter <br>
+                        Better comments <br>
+                        Angular Snippets<br>
+                        Intelisense path<br>
+                        IntelliSense for CSS class names in HTML<br>
+                        Eslint<br>
+                        GitLens<br>
+                        ThunderClient<br>
+                        Live Server<br>
                     </div>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Front-end developer</h5><span class="item-details">Itd / 2019 - Present</span>
-                      <p class="item-description">Part of a great international team as a Frontend developer working with Angular(since 05/21), AngularJS, git, npm, primeng, Bootstrap, Three.js. Responsible for maintaining and implementation of new features in web application.</p>
-                    </div>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">PHP/MySQL Developer</h5><span class="item-details">Itd / 2018 - 2019</span>
-                      <p class="item-description">As a part of a scrum team, I was responsible for maintaining and developing new features in the existing Document Management System. Technologies I used are PHP, MySQL, Javascript, AJAX, Jquery, SVN.
-                        English usage on daily basis.</p>
+                    <div class="col-lg-12 row justify-content-right" >
+                      <p class="card-text content-footer" style="opacity: 0.7">Read more on <a href="https://dev.to/smetankajakub/vscode-extensions-not-only-for-frontend-developers-30aj">dev.to</a></p>
+                      <!-- <p><a href="">Read on Hashnode</a></p> -->
                     </div>
                   </div>
                 </div>
+                <!-- Single post-->
+                <div class="col-12 col-sm-8 col-lg-4">
+                  <div class="card single-post"><a class="post-img" href="https://dev.to/smetankajakub/how-to-resolve-merge-conflicts-in-bitbucket-repository-with-git-bash-34ag"><img class="card-img-top" src="img/blog-2.jpg" alt="Blog post"><span class="content-date">31 Aug, 21</span></a>
+                    <div class="card-body post-content"><a href="https://dev.to/smetankajakub/how-to-resolve-merge-conflicts-in-bitbucket-repository-with-git-bash-34ag">
+                        <h5 class="card-title content-title">5 steps to resolve merge conflicts in Bitbucket repository with git bash</h5>
+                      </a>
+                      <p class="card-text content-description">Before merging your branch to the main branch (develop, master, whatever), it occurs that your branch is many commits behind the destination branch and somebody pushed changes which have conflicts with yours. Before pushing your changed files you have to sync your branch with the destination branch and in case, that there are files with conflicts you have to resolve them. If you are a fan of git bash or command line, there are 5 steps how to manage merge.</p>
+                    </div>
+                    <div class="col-lg-12 row justify-content-right" >
+                      <p class="card-text content-footer" style="opacity: 0.7">Read more on <a href="https://dev.to/smetankajakub/how-to-resolve-merge-conflicts-in-bitbucket-repository-with-git-bash-34ag">dev.to</a></p>
+                      <!-- <p><a href="">Read on Hashnode</a></p> -->
+                    </div>
+                  </div>
+                </div>
+                
               </div>
             </div>
-            <!-- Skills section-->
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Portfolio lightbox-->
-  <!-- Blog lightbox -->
+
   <!-- Contact lightbox-->
   <div class="lightbox-wrapper" id="contact" data-simplebar>
     <div class="container">

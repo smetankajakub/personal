@@ -255,6 +255,35 @@
       }
     }())
 
+
+
+    // ifExists('#about .testimonials-section', function() {
+    //   var testimonials = tns({
+    //     container: '#about .testimonials-section .my-slider',
+    //     items: 3,
+    //     gutter: 10,
+    //     "responsive": {
+    //       "0": {
+    //         "items": 1,
+    //         "gutter": 0
+    //       },
+    //       "768": {
+    //         "items": 2,
+    //         "gutter": 30
+    //       }
+    //     },
+    //     preventScrollOnTouch: 'auto',
+    //     slideBy: "page",
+    //     mouseDrag: true,
+    //     swipeAngle: false,
+    //     speed: 400,
+    //     controls: false,
+    //     autoHeight: false,
+    //     center: true,
+    //     navPosition: 'bottom'
+    //   });
+    // });
+
     /*----------  Resume: Skills  ----------*/
 
     ifExists('#resume .skills-section', function() {

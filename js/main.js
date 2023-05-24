@@ -187,7 +187,7 @@
       // Set animation timing
       var animationDelay = 2500,
         // Clip effect
-        revealDuration = 660,
+        revealDuration = 900,
         revealAnimationDelay = 1500;
 
       initHeadline();
